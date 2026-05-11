@@ -1,0 +1,13 @@
+# Ignore python binaries
+__pycache__/
+build/
+dist/
+*.spec
+
+# Ignore local database and ID files
+database.json
+Machine_id.txt
+TestFolder/
+
+# Ignore Private Keys
+receiver_private.pem
